@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  background-color: rgb(123, 155, 59);
+}
+form {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  margin: 10px;
+  width: 250px;
+  border-radius: 7px;
+  text-align: center;
+  height: 30px;
+}
+button {
+  padding: 5px 15px 5px 15px;
+  border-radius: 7px;
+  background-color: darkgoldenrod;
+  color: white;
+  font-weight: bold;
+}

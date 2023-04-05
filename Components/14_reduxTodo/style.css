@@ -1,0 +1,43 @@
+.container-fluid {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(103, 167, 130);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inputBtn {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.inputBtn > input {
+  border: none;
+  outline: none;
+  background-color: rgb(103, 167, 130);
+  text-align: center;
+  font-weight: bold;
+  border-radius: 7px;
+  border-bottom: 2px solid black;
+}
+.inputBtn > button {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addedItem {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 10px 0;
+  border-radius: 10px;
+  background-color: aliceblue;
+  padding: 20px;
+}

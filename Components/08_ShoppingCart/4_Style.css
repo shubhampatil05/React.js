@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+}
+
+header {
+  width: 100%;
+  line-height: 10rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  border-bottom: 1px solid #9a9191;
+  transform: rotate(-0.05deg);
+  margin-bottom: 30px;
+}
+
+.Continue-Shopping {
+  display: flex;
+  height: inherit;
+  align-items: center;
+}
+
+.Arrow {
+  width: 35px !important;
+  height: 35px !important;
+}
+.Continue-Shopping > h3 {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.Icon {
+  display: flex;
+  text-align: end;
+  margin-left: 32px;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  cursor: pointer;
+}
+
+.Cart-Icon {
+  width: 80px;
+  height: 80px;
+}
+.Icon > p {
+  position: absolute;
+  border-radius: 50%;
+  background: #99cbf7;
+  color: #fff;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--main-color);
+  width: 12px;
+  height: 12px;
+  font-size: 8px;
+  font-weight: bold;
+}
+
+.Cart-items {
+  display: flex;
+  width: 100%;
+  height: 375px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.items-Container {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 25% 25% auto auto auto;
+  width: 100%;
+  height: 100px;
+}
+
+.img {
+  width: 100px;
+  height: 60px;
+  border-radius: 5px;
+}
+
+.items-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title > h3 {
+  font-size: 17px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+.add-rem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.add-rem > input {
+  width: 30px;
+  text-align: center;
+  border: none;
+  outline: none;
+  background: aliceblue;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+.delete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.Cart-total {
+  margin-top: 10px;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.Cart-total > p {
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.Cart-total > p > span {
+  font-weight: bold;
+}
+
+.Cart-total > button {
+  width: 90px;
+  margin-right: 20px;
+}

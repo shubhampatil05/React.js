@@ -1,0 +1,32 @@
+.Main {
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.Vdo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+video {
+  height: 240px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px -5px rgb(0, 0, 0, 0.7);
+}
+
+button {
+  margin: 0px 3px 0px 3px;
+  border-radius: 10px;
+  width: 100px;
+}
+
+.btn-play {
+  background-color: lightgreen;
+  border: none;
+}
+
+.btn-pause {
+  background-color: indianred;
+  border: none;
+}

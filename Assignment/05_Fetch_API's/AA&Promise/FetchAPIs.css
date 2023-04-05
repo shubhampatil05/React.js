@@ -1,0 +1,22 @@
+* {
+  background-color: aliceblue;
+}
+table {
+  width: 100%;
+  height: 90vh;
+  text-align: center;
+}
+
+thead tr th {
+  border: 1px solid black;
+}
+tbody tr td {
+  border: 1px solid gray;
+  background: aliceblue;
+}
+
+h1 {
+  font-style: italic;
+  text-decoration: underline;
+  text-align: center;
+}

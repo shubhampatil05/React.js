@@ -1,0 +1,21 @@
+* {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.Heading {
+  font-size: 25px;
+}
+span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkolivegreen;
+}
+
+.First {
+  background-color: antiquewhite;
+  padding: 5px;
+}
+.Second {
+  background-color: rgb(242, 146, 111);
+}

@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Parent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+.Main {
+  width: 70vw;
+  background: #ffff;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.7);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.Qn {
+  width: 70%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Ans {
+  width: 70%;
+  margin-top: 0px;
+  margin-bottom: 13px;
+  margin-right: 15%;
+  margin-left: 15%;
+  font-style: italic;
+}
+span {
+  font-weight: bold;
+}
+.Heading {
+  text-transform: capitalize;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.Heading::first-letter {
+  font-size: 55px;
+  color: indianred;
+}

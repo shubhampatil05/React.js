@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.Header {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(235, 198, 89);
+  display: flex;
+}
+
+.Logo {
+  width: 50px;
+  position: relative;
+}
+.Heading {
+  font-weight: bold;
+  color: white;
+  height: 50px;
+  padding-top: 12px;
+  position: absolute;
+  left: 40px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.Note {
+  width: 100%;
+  height: 185px;
+}
+.Footer {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  position: fixed;
+  bottom: 0;
+}
+.Copyright {
+  text-shadow: 1px 2px 3px;
+}
+.btn {
+  border-radius: 100%;
+  color: rgb(235, 198, 89);
+  font-weight: bold;
+  border: none;
+  position: absolute;
+  right: 13px;
+  bottom: -13px;
+  background-color: white;
+}
+input {
+  display: block;
+  width: 300px;
+  border: none;
+  padding: 5px;
+  font-weight: bold;
+  outline: none;
+  padding: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+textarea {
+  width: 270px;
+  height: 105px;
+  border: none;
+  padding: 5px;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 10px;
+  outline: none;
+}
+.Note {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  height: 150px;
+  width: 300px;
+  margin-top: 15px;
+  box-shadow: 5px 5px 15px -10px;
+  border-radius: 10px;
+  position: relative;
+}
+.SaveNotes {
+  box-sizing: border-box;
+  box-shadow: 2px 2px 6px -3px;
+  width: 140px;
+  border-radius: 7px;
+  margin-left: 15px;
+  height: 90px;
+}
+.button {
+  background: transparent;
+  border: none;
+  margin: 0px 0px 10px 110px;
+}
+.deleteIcon {
+  color: rgb(235, 198, 89);
+  font-size: 15px !important;
+}
+h3 {
+  font-weight: bold;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 5px 0px 0px 5px;
+  opacity: 0.7;
+}
+.SaveNotes > p {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 0px 0px 0px 5px;
+  opacity: 0.7;
+  display: flex;
+}
+.Wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
